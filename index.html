@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header com Flexbox -->
+
     <header class="header">
         <div class="container">
             <div class="nav">
@@ -22,8 +22,8 @@
         </div>
     </header>
 
-    <!-- Hero Section com Flexbox -->
-    <section class="hero">
+    <!-- HERO -->
+    <section class="hero" id="home">
         <div class="hero-content">
             <h1>Experimente o Impossível</h1>
             <p>Sabores únicos e surpreendentes que desafiam a imaginação e encantam o paladar</p>
@@ -31,43 +31,72 @@
         </div>
     </section>
 
-    <!-- Cards de Produtos com Flexbox -->
+    <!-- PRODUTOS -->
     <section class="produtos" id="produtos">
         <div class="container">
-            <h2 class="section-title">Sabores Impossíveis</h2>
+
+            <h2 class="section-title">Carros chefes da casa</h2>
 
             <div class="cards">
+
                 <div class="card">
-                    <img src="imagens/ChatGPT Image 8 de jun. de 2026, 08_28_02.png" alt="Sorvete Galáxia Azul">
+                    <img src="imagens/ChatGPT Image 9 de jun. de 2026, 18_45_51.png" alt="Goku MUI">
                     <div class="card-content">
-                        <h3>Galáxia Azul</h3>
-                        <p>Uma explosão cósmica de frutas azuis raras com brilho estelar comestível</p>
+                        <h3>Goku MUI</h3>
+                        <p>Uma explosão cósmica de frutas azuis e poder dos anjos.</p>
                         <span class="price">R$ 18,90</span>
                     </div>
                 </div>
 
                 <div class="card">
-                    <img src="imagens/ChatGPT Image 8 de jun. de 2026, 08_26_18.png" alt="Sorvete Dragão de Morango">
+                    <img src="imagens/ChatGPT Image 8 de jun. de 2026, 08_28_02.png" alt="Via Láctea">
                     <div class="card-content">
-                        <h3>Dragão de Morango</h3>
-                        <p>Morangos encantados combinados com especiarias misteriosas e creme mágico</p>
-                        <span class="price">R$ 15,90</span>
+                        <h3>Via Láctea</h3>
+                        <p>Um sabor interestelar para os exploradores da galáxia.</p>
+                        <span class="price">R$ 18,90</span>
                     </div>
                 </div>
 
                 <div class="card">
-                    <img src="imagens/ChatGPT Image 8 de jun. de 2026, 08_29_43.png" alt="Sorvete Nuvem Arco-Íris">
+                    <img src="imagens/ChatGPT Image 8 de jun. de 2026, 08_29_43.png" alt="Arco-Íris">
                     <div class="card-content">
-                        <h3>Nuvem Arco-Íris</h3>
-                        <p>Textura ultraleve com sete sabores secretos mudando a cada colherada</p>
-                        <span class="price">R$ 14,90</span>
+                        <h3>Arco-Íris</h3>
+                        <p>Uma mistura de cores e sabores que ilumina o dia.</p>
+                        <span class="price">R$ 18,90</span>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Seção de Depoimentos -->
+                <div class="card">
+                    <img src="imagens/ChatGPT Image 8 de jun. de 2026, 08_26_18.png" alt="Dragão de Morango">
+                    <div class="card-content">
+                        <h3>Dragão de Morango</h3>
+                        <p>Morangos encantados com um toque lendário.</p>
+                        <span class="price">R$ 18,90</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="imagens/ChatGPT Image 9 de jun. de 2026, 19_21_15.png" alt="Saudade da EX">
+                    <div class="card-content">
+                        <h3>Saudade da EX ❤️‍🩹</h3>
+                        <p>Doce, marcante e impossível de esquecer.</p>
+                        <span class="price">R$ 18,90</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="imagens/ChatGPT Image 8 de jun. de 2026, 08_31_48.png" alt="Buraco Negro">
+                    <div class="card-content">
+                        <h3>Buraco Negro</h3>
+                        <p>Uma singularidade de chocolate que absorve toda a tristeza.</p>
+                        <span class="price">R$ 18,90</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- Seção de Depoimentos -->
 <section class="depoimentos">
     <div class="container">
         <h2 class="section-title">O Que Nossos Clientes Dizem</h2>
@@ -75,15 +104,15 @@
         <div class="cards">
             <div class="card">
                 <div class="card-content">
-                    <p>"Nunca imaginei provar um sorvete com sabor de galáxia. Simplesmente incrível!"</p>
+                    <p>"Nunca imaginei provar um sorvete com sabor de GOKU (sempre fui fã). Simplesmente incrível!"</p>
                     <h3>Juliana</h3>
                 </div>
             </div>
 
             <div class="card">
                 <div class="card-content">
-                    <p>"O Dragão de Morango é o sorvete mais diferente e gostoso que já experimentei."</p>
-                    <h3>Lucas Mendes</h3>
+                    <p>"O Saudade da Ex é tão bom que me deu esperança de voltar."</p>
+                    <h3>Lucas Santos</h3>
                 </div>
             </div>
 
@@ -96,52 +125,33 @@
         </div>
     </div>
 </section>
+<footer class="footer" id="contato">
+    <div class="container">
 
-    <!-- Seção Sobre com Flexbox -->
-    <section class="sobre" id="sobre">
-        <div class="container">
-            <div class="sobre-flex">
-                <div class="sobre-imagem">
-                    <img src="imagens/ChatGPT Image 8 de jun. de 2026, 08_31_48.png" alt="Sorvetes Fantásticos">
-                </div>
-                <div class="sobre-texto">
-                    <h2>A Fábrica dos Sabores Impossíveis</h2>
-                    <p>Há mais de 10 anos, a Sorveteria PL cria combinações extraordinárias inspiradas em sonhos, lendas e mundos fantásticos.</p>
-                    <p>Nossa missão é transformar cada visita em uma aventura inesquecível através de sabores que parecem impossíveis de existir.</p>
-                    <ul class="beneficios">
-                        <li>✓ Receitas exclusivas e secretas</li>
-                        <li>✓ Ingredientes surpreendentes</li>
-                        <li>✓ Cores e texturas mágicas</li>
-                        <li>✓ Experiência única em cada sabor</li>
-                    </ul>
-                </div>
+        <div class="footer-content">
+
+            <div class="footer-section">
+                <h4>Sorveteria PL</h4>
+                <p>Onde os sabores impossíveis se tornam realidade.</p>
             </div>
+
+            <div class="footer-section">
+                <h4>Contato</h4>
+                <p>contato@sorveteriapl67.com.br</p>
+                <p>(67) 67676-6767</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>Redes Sociais</h4>
+                <p>Instagram | Facebook | TikTok</p>
+            </div>
+
         </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Sorveteria PL. Todos os direitos reservados.</p>
+        </div>
+
+    </div>
+</footer>
     </section>
-
-    <!-- Footer com Flexbox -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h4>Sorveteria PL</h4>
-                    <p>Onde os sabores impossíveis se tornam realidade</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Contato</h4>
-                    <p>contato@sorveteriapl.com.br</p>
-                    <p>(11) 9999-9999</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Redes Sociais</h4>
-                    <p>Instagram | Facebook | TikTok</p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Sorveteria PL. Todos os direitos reservados.</p>
-            </div>
-        </div>
-    </footer>
-</body>
-</html>
-
